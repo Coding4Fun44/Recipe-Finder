@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import axios from "axios";
 
 function App() {
@@ -144,14 +143,12 @@ function App() {
     setShowMealTypeChecklist(!showMealTypeChecklist);
     showDietChecklist && setShowDietChecklist(false);
     showHealthChecklist && setShowHealthChecklist(false);
-    //  console.log(showMealTypeChecklist);
   };
 
   const displayHealthChecklist = () => {
     setShowHealthChecklist(!showHealthChecklist);
     showDietChecklist && setShowDietChecklist(false);
     showMealTypeChecklist && setShowMealTypeChecklist(false);
-    //  console.log(showHealthChecklist);
   };
 
   const toggleItem = (id, checklist) => {
