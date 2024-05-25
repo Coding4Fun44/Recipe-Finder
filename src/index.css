@@ -2,8 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding : 0;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer/Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 p {
@@ -192,8 +192,6 @@ h1 {
 
 @media (max-width: 700px) {
   .diet {
-  /*  margin-left:
-    margin-top: -5px;*/
     position: absolute;
     top: 10px;
     left: 50px;
@@ -201,12 +199,12 @@ h1 {
   }
 
   .meal-type {
-    margin-left: -327px; /* Adjust the left margin as needed */
-    margin-top: 1.2px; /* Adjust the top margin as needed */
+    margin-left: -327px;
+    margin-top: 1.2px;
   }
   .health {
-    margin-left: -326.6px; /* Adjust the left margin as needed */
-    margin-top: -1.7px; /* Adjust the top margin as needed */
+    margin-left: -326.6px;
+    margin-top: -1.7px;
   }
 
   .list {
